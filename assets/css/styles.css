@@ -1,0 +1,56 @@
+.navbar-expand-md .navbar-nav {
+  min-width: 0px;
+}
+
+#Home {
+  text-align: center;
+  padding: 60px;
+  background: url(../../assets/img/_DSC1241.png) no-repeat;
+  background-repeat: no-repeat;
+  background-position: 45% 65%;
+  height: 840px;
+}
+
+@media (min-width: 576px) {
+  #Home {
+    padding: 20px;
+  }
+}
+
+#Home .jumbotron {
+  border-radius: 30px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.68);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #Home .jumbotron {
+    padding: 20px;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 678px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  background-color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+  .img-fluid {
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background-color: #f8dc12;
+}
+
